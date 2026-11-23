@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>भारत सर्च</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+        .search-box { width: 50%; padding: 15px; font-size: 16px; }
+        .search-btn { padding: 15px 25px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>भारत सर्च</h1>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <input type="text" name="q" class="search-box" placeholder="खोजें या कुछ टाइप करें...">
+        <br><br>
+        <button type="submit" class="search-btn">खोजें</button>
+    </form>
+</body>
+</html>
